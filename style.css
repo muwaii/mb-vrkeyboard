@@ -9,11 +9,13 @@ body {
 .container {
 	display: flex;
 	flex-direction: column;
+	border: 3px solid green;
 }
 
 .keyboard {
 	display: flex;
 	flex-direction: column;
+	margin: 0 auto;
 }
 
 .rows {
@@ -27,14 +29,106 @@ body {
 
 .rows div {
 	border: 1px solid blue;
-	width: 60px;
-	height: 60px;
+	/* width: 4.9vw; */
+	/* height: 4.9vw; */
+	font-size: 1.4vw;
 }
 
 .div-key {
 	display: flex;
 	flex-direction: column;
 }
+
+.keys {
+	background-color: #FFFFFF;
+	width: 4.9vw;
+	height: 4.9vw;
+	margin: 0.34vw;
+	transition: 0.9s;
+}
+
+.code {
+	font-size: 0.4vw;
+}
+
+.backspace  {
+	width: 7.5vw;
+}
+
+.tab {
+	width: 7.5vw;
+}
+
+.caps-lock {
+	width: 9vw;
+}
+
+.enter {
+	width: 9vw;
+}
+
+.shift-left {
+	width: 11.7vw;
+}
+
+.shift-right {
+	width: 11.7vw;
+}
+
+.command-left {
+	width: 6vw;
+}
+
+.command-right {
+	width: 6vw;
+}
+
+.space {
+	width: 27.5vw;
+}
+
+.up {
+	margin: 0;
+	border-bottom: 1px solid red;
+}
+
+.down {
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="style.css"/>
-		<title>The Keyboard</title>	
+		<title>Simple vrkeyboard</title>	
 	</head>
 	<body>
 		<div class="container">
@@ -12,62 +12,23 @@
 			</div>
 			<div class="keyboard">
 				<div class="rows">
-					<div class="div-key">
-						<aside class="keys">~</aside>
-						<aside class="keys">`</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">!</aside>
-						<aside class="keys">1</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">@</aside>
-						<aside class="keys">2</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">#</aside>
-						<aside class="keys">3</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">$</aside>
-						<aside class="keys">4</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">%</aside>
-						<aside class="keys">5</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">^</aside>
-						<aside class="keys">6</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">&</aside>
-						<aside class="keys">7</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">*</aside>
-						<aside class="keys">8</aside>
-					</div>
-					<div class="div-key">
-						<aside="keys">(</aside>
-						<aside class="keys">9</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">)</aside>
-						<aside class="keys">0</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">_</aside>
-						<aside class="keys">-</aside>
-					</div>
-					<div class="div-key">
-						<aside class="keys">+</aside>
-						<aside class="keys">=</aside>
-					</div>
-					<div class="keys codes">delete</div>
+					<div class="keys">`</div>
+					<div class="keys">1</div>
+					<div class="keys">2</div>
+					<div class="keys">3</div>
+					<div class="keys">4</div>
+					<div class="keys">5</div>
+					<div class="keys">6</div>
+					<div class="keys">7</div>
+					<div class="keys">8</div>
+					<div class="keys">9</div>
+					<div class="keys">0</div>
+					<div class="keys">-</div>
+					<div class="keys">=</div>
+					<div class="keys codes backspace" tempclass="Backspace">delete</div>
 				</div>
 				<div class="rows">
-					<div class="keys codes tab">tab</div>
+					<div class="keys codes tab" tempclass="Tab">tab</div>
 					<div class="keys">Q</div>
 					<div class="keys">W</div>
 					<div class="keys">E</div>
@@ -83,7 +44,7 @@
 					<div class="keys">\</div>
 				</div>
 				<div class="rows">
-					<div class="keys codes caps-lock">caps lock</div>
+					<div class="keys codes caps-lock" tempclass="CapsLock">caps lock</div>
 					<div class="keys">A</div>
 					<div class="keys">S</div>
 					<div class="keys">D</div>
@@ -95,10 +56,10 @@
 					<div class="keys">L</div>
 					<div class="keys">;</div>
 					<div class="keys">'</div>
-					<div class="keys codes enter">enter</div>
+					<div class="keys codes enter" tempclass="enter">enter</div>
 				</div>
 				<div class="rows">
-					<div class="keys codes shift-left">shift</div>
+					<div class="keys codes shift-left" tempclass="ShiftLeft">shift</div>
 					<div class="keys">Z</div>
 					<div class="keys">X</div>
 					<div class="keys">C</div>
@@ -109,22 +70,22 @@
 					<div class="keys">,</div>
 					<div class="keys">.</div>
 					<div class="keys">/</div>
-					<div class="keys codes shift-right">shift</div>
+					<div class="keys codes shift-right" tempclass="ShiftRight">shift</div>
 				</div>
 				<div class="rows">
 					<div class="keys">fn</div>
-					<div class="keys codes control">control</div>
-					<div class="keys codes option-left">option</div>
-					<div class="keys codes command-left">command</div>
-					<div class="keys codes"></div>
-					<div class="keys codes command-right">command</div>
-					<div class="keys codes option-right">option</div>
-					<div class="keys codes">left</div>
-					<div class="div-key">
-						<aside class="keys codes">up</aside>
-						<aside class="keys codes">down</aside>
+					<div class="keys codes control" tempclass="ControlLeft">control</div>
+					<div class="keys codes option-left" tempclass="AltLeft">option</div>
+					<div class="keys codes command-left" tempclass="MetaLeft">command</div>
+					<div class="keys codes space" tempclass="Space"></div>
+					<div class="keys codes command-right" tempclass="MetaRight">command</div>
+					<div class="keys codes option-right" tempclass="AltRight">option</div>
+					<div class="keys codes left" tempclass="ArrowLeft">left</div>
+					<div class="keys div-key">
+						<aside class="keys codes up" tempclass="ArrowUp">up</aside>
+						<aside class="keys codes down" tempclass="ArrowDown">down</aside>
 					</div>
-					<div class="keys codes">right</div>
+					<div class="keys codes right" tempclass="ArrowRight">right</div>
 				</div>
 			</div>
 		</div>
