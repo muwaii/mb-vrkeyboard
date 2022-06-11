@@ -4,18 +4,67 @@
 
 body {
 	margin: 0;
+	text-align: center;
 }
 
 .container {
 	display: flex;
 	flex-direction: column;
-	border: 3px solid green;
+}
+
+.keys {
+	border-radius: 0.4vw;
+}
+
+input {
+	color: #4a4a4a;
+	width: 40vw;
+	height: 4vw;
+	margin: 10vh auto 5vh;
+	font-size: 2.9vw;
+	padding: 3vw 4vw;
+	font-family: 'Spline Sans Mono', monospace;
+	transition: width 0.5s ease-in-out;
+}
+
+input:focus {
+	outline-color: #ff7080;
+	border-radius: 4vw;
+	width: 65vw;
+}
+
+::placeholder {
+	font-size: 2vw;
+	font-style: italic;
+	border-radius: 2vw;
+	text-align: center;
+	color: #c2c2c2;
 }
 
 .keyboard {
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
+	padding: 0.5vw;
+	background: #c0c2c4;
+	border-radius: 2vw;
+	color: #a4a4a4;
+}
+
+.border-tl {
+	border-radius: 1.8vw 0.4vw 0.4vw 0.4vw;
+}
+
+.border-tr {
+	border-radius: 0.4vw 1.8vw 0.4vw 0.4vw;
+}
+
+.border-br {
+	border-radius: 0.4vw 0.4vw 1.8vw 0.4vw;
+}
+
+.border-bl {
+	border-radius: 0.4vw 0.4vw 0.4vw 1.8vw;
 }
 
 .rows {
@@ -23,15 +72,11 @@ body {
 }
 
 .text {
-	border: 1px solid red;
-	height: 200px;
+	height: 25vh;
 }
 
 .rows div {
-	border: 1px solid blue;
-	/* width: 4.9vw; */
-	/* height: 4.9vw; */
-	font-size: 1.4vw;
+	font-size: 1.3vw;
 }
 
 .div-key {
@@ -96,33 +141,20 @@ body {
 	margin: 0;
 }
 
+.keys {
+	border: 1px solid #a0a0a0;
+	padding-top: 1.7vw;
+	box-shadow: 0 -0.1vw 0.2vw #8c8c8c;
+}
 
+.up, .down {
+	padding-top: 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.div-key {
+	padding-top: 0;
+	border: none;
+}
 
 
 
